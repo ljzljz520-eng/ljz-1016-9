@@ -1,0 +1,19 @@
+{
+  "name": "release-ops-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "网站发布运维台：管理员登录 + 发布记录 / 环境配置 / 访问日志（占位模块）",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "init:admin": "node scripts/init-admin.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
